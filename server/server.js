@@ -11,5 +11,5 @@ server.get('/api/data', (req, res, next) => {
 
 const PORT = 3000;
 server.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+  console.log(`Server is running on port ${PORT}, ${server.url}`);
 });
