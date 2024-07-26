@@ -5,7 +5,7 @@
 # More information: https://docs.platform.sh/define-routes.html
 "https://{default}/":
   type: upstream
-  upstream: "client:http"
+  upstream: "bike_trails:http"
 
 "https://{default}/api":
   type: upstream
