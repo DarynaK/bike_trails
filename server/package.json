@@ -1,0 +1,9 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "node server.ts"
+},
+  "dependencies": {
+    "restify": "^11.1.0"
+  }
+}

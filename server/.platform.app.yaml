@@ -1,0 +1,10 @@
+name: server
+
+# The runtime the application uses.
+type: nodejs:18
+web:
+  commands:
+   start: "node server.js"
+
+# The size of the persistent disk of the application (in MB).
+disk: 512

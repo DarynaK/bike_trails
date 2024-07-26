@@ -6,3 +6,7 @@
 "https://{default}/":
   type: upstream
   upstream: "bike_trails:http"
+
+"https://{default}/api":
+  type: upstream
+  upstream: "server:http"
