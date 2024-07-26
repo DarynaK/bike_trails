@@ -1,0 +1,19 @@
+name: bike_trails
+type: 'nodejs:18'
+disk: 2328
+
+build:
+  flavor: none
+
+hooks:
+  build: |
+    npm i
+    npm run build
+web:
+  locations:
+    '/':
+      root: 'build/'
+      passthru: '/index.html'
+dependencies:
+  nodejs:
+    npm: '^10.2.0'
