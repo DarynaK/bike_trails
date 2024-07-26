@@ -2,8 +2,9 @@
   "type": "module",
   "scripts": {
     "start": "node server.ts"
-},
+  },
   "dependencies": {
+    "path": "^0.12.7",
     "restify": "^11.1.0"
   }
 }
